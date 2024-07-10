@@ -36,7 +36,29 @@ body {
     border-radius: 4px;
     box-sizing: border-box;
   }
+  #clear-button{
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    background-color: aqua;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    display: non;
+    
+}
+ 
   
+  #list li {
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 8px;
+    background-color: #c9b5b5;
+    border: 1px solid #bb0d0d;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   button {
     display: block;
     width: 100%;
@@ -47,6 +69,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    display: non;
   }
   
   button:hover {
